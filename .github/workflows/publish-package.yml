@@ -2,9 +2,6 @@ name: Publish AssistIA Package
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - "pkg-v*"
 
 jobs:
   publish:
@@ -19,6 +16,10 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
+
+      - name: Configure npm for GitHub Packages
+        run: |
+          echo "@teremu:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Install dependencies
         run: npm install
