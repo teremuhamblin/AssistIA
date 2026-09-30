@@ -1,6 +1,7 @@
 name: Publish AssistIA Package
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "pkg-v*"
