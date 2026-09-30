@@ -1,0 +1,15 @@
+{
+  "name": "@teremu/assistia",
+  "version": "1.0.0",
+  "description": "AssistIA package minimal pour GitHub Packages",
+  "main": "index.js",
+  "author": "Teremu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teremu/AssistIA.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
