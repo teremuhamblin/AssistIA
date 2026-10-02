@@ -52,9 +52,8 @@
 > ***VOIR index.js***
 ### 📦 Package Engine
 > ***VOIR package.json***
-
-🛡️ Workflow GitHub Action
-- Publish AssistIA
+### 🛡️ Workflow GitHub Action
+> ***Publish AssistIA***
 ***VOIR .github/workflows/***
 ### 📄 manifest.in
 ```text
@@ -67,9 +66,9 @@ recursive-include scripts *
 
 ### 📊 Graphique ASCII
 - Architecture AssistIA
-
+> ***VOIR docs/architecture.md***
 ```ascii
-          ┌──────────────────────────────┐
+         ┌──────────────────────────────┐
           │        AssistIA v5.1         │
           └──────────────────────────────┘
                      ▲        ▲
@@ -102,7 +101,7 @@ console.log(AssistIA.status());
 AssistIA.init();
 ```
 
-🏁 Roadmap vx.x
+### 🏁 Roadmap vx.x
 ```markdown
 - ✔️ — Core Engine amélioré  
 - ⬜ — CLI militaire complet  
@@ -111,5 +110,7 @@ AssistIA.init();
 ```
 
 >🧑‍✈️ Auteur
+```markdown
 - Teremu — The MadDoG.tmdg  
 - Architecte militaire du code
+```
