@@ -1,8 +1,41 @@
 {
   "name": "@teremu/assistia",
-  "version": "1.0.0",
-  "description": "AssistIA package minimal pour GitHub Packages",
-  "main": "index.js",
+  "version": "5.0.0",
+  "description": "AssistIA — Framework militaire modulaire pour opérations IA, GitOps et automatisation tactique.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./core": "./src/core/engine.js",
+    "./cli": "./src/cli/assistia.js"
+  },
+  "bin": {
+    "assistia": "src/cli/assistia.js"
+  },
+  "files": [
+    "src/",
+    "docs/",
+    "scripts/",
+    "LICENSE",
+    "README.rst"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "assistia": "node src/cli/assistia.js",
+    "lint": "eslint src/",
+    "build": "echo 'AssistIA v5.0 — build opérationnel terminé'",
+    "prepublishOnly": "npm run lint && npm run build"
+  },
+  "keywords": [
+    "assistia",
+    "military",
+    "framework",
+    "automation",
+    "cli",
+    "gitops",
+    "security",
+    "teremu"
+  ],
   "author": "Teremu",
   "license": "MIT",
   "repository": {
@@ -11,5 +44,12 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "assistia": {
+    "doctrine": "MIL-STD-IA-5.0",
+    "signature": "ASSISTIA FRAMEWORK — TACTICAL OPS READY"
   }
 }
