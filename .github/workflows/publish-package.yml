@@ -1,30 +1,47 @@
-name: Publish AssistIA Package
+name: AssistIA v5.0 — Publish Package
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: 🛰️ Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: ⚙️ Setup Node.js (AssistIA Doctrine)
         uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
 
-      - name: Configure npm for GitHub Packages
+      - name: 🛡️ Configure npm for GitHub Packages
         run: |
-          echo "@teremu:registry=https://npm.pkg.github.com" >> ~/.npmrc
+          echo "# AssistIA v5.0 — Tactical NPM Config" >> ~/.npmrc
+          echo "@teremu:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm install
 
-      - name: Publish AssistIA package
-        run: npm publish
+      - name: 🔍 Verify package structure (military discipline)
+        run: |
+          echo "────────────────────────────────────────"
+          echo "AssistIA v5.0 — Vérification du package"
+          echo "────────────────────────────────────────"
+          npm pack --dry-run
+
+      - name: 🚀 Publish AssistIA package
         env:
-          NODE_AUTH_TOKEN:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "────────────────────────────────────────"
+          echo "AssistIA v5.0 — Publication en cours..."
+          echo "────────────────────────────────────────"
+          npm publish --access public
