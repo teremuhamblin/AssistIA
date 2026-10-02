@@ -36,7 +36,7 @@
 - ✔️ Prêt pour la version BlackOps v5.2
 ```
 
-🧩 Fonctionnalités principales
+##$ 🧩 Fonctionnalités principales
 ```markdown
 - ⚙️ Core Engine IA v5.1  
 - 🛰️ CLI AssistIA (prévu v5.2)  
