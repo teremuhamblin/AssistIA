@@ -1,4 +1,6 @@
-🧠⚔️ AssistIA v5.1 — Tactical IA Framework
+# 🧠⚔️ AssistIA
+- **v5.1**
+>Tactical IA Framework
 
 <div align="left">
 
@@ -19,7 +21,7 @@
 ╚═╝  ╚═╝ ╚══════╝ ╚══════╝ ╚══════╝    ╚═╝   ╚═╝  ╚═══╝  ╚═╝  ╚═╝
 ```
 
-# ✅ AssisIA v5.1
+# ✅ AssisIA
 - Tactical IA Framework
    - État du projet v5.1
 ```text
