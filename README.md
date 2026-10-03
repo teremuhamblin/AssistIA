@@ -38,6 +38,28 @@ IA Framework
 ```
 
 ### 📁 Structure ROOT Edition
+### 🧩 Fonctionnalités principales
+```markdown
+- ⚙️ Core Engine IA v5.1  
+- 🛰️ CLI AssistIA (prévu v5.2)  
+- 🛡️ Sécurité renforcée (npmrc + workflows)  
+- 📦 Publication automatique GitHub Packages  
+- 📡 Exports ESM propres  
+- 🧠 Architecture modulaire IA / Ops / GitOps  
+```
+
+### 🗂️ Structure du projet
+```text
+>***VOIR docs/structure.md***
+### ⚙️ Core Engine
+> ***VOIR index.js***
+### 📦 Package Engine
+> ***VOIR package.json***
+### 🛡️ Workflow GitHub Action
+> ***Publish AssistIA***
+***VOIR .github/workflows/***
+### 📄 manifest.in
+```
 ```text
 assistia.js      → CLI Quantum ERA
 engine.js        → Moteur IA
