@@ -1,55 +1,74 @@
 {
   "name": "@teremu/assistia",
-  "version": "5.0.0",
-  "description": "AssistIA — Framework militaire modulaire pour opérations IA, GitOps et automatisation tactique.",
+  "version": "5.2.0",
+  "description": "AssistIA — Framework militaire modulaire Quantum ERA pour opérations IA, GitOps, CI/CD et automatisation tactique.",
   "type": "module",
+
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
     "./core": "./src/core/engine.js",
-    "./cli": "./src/cli/assistia.js"
+    "./cli": "./src/cli/assistia.js",
+    "./utils": "./src/utils/index.js"
   },
+
   "bin": {
     "assistia": "src/cli/assistia.js"
   },
+
   "files": [
     "src/",
     "docs/",
     "scripts/",
+    "assets/",
     "LICENSE",
     "README.rst"
   ],
+
   "scripts": {
     "start": "node src/index.js",
     "assistia": "node src/cli/assistia.js",
     "lint": "eslint src/",
-    "build": "echo 'AssistIA v5.0 — build opérationnel terminé'",
+    "build": "echo 'AssistIA v5.2 — Quantum ERA build terminé'",
+    "prepare": "npm run lint",
     "prepublishOnly": "npm run lint && npm run build"
   },
+
   "keywords": [
     "assistia",
+    "quantum-era",
     "military",
     "framework",
     "automation",
     "cli",
     "gitops",
     "security",
-    "teremu"
+    "teremu",
+    "tactical",
+    "ia-engine"
   ],
+
   "author": "Teremu",
   "license": "MIT",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/Teremu/AssistIA.git"
   },
+
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+
   "engines": {
     "node": ">=20"
   },
+
   "assistia": {
-    "doctrine": "MIL-STD-IA-5.0",
-    "signature": "ASSISTIA FRAMEWORK — TACTICAL OPS READY"
+    "doctrine": "MIL-STD-IA-5.2",
+    "signature": "ASSISTIA FRAMEWORK — QUANTUM ERA READY",
+    "assets": "6-fold Quantum Visual System",
+    "ci": "GitHub Actions Tactical Pipelines",
+    "modules": "Modular IA Engine v5.2"
   }
 }
