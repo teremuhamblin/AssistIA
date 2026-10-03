@@ -4,31 +4,32 @@
   "description": "AssistIA — Framework militaire modulaire Quantum ERA pour opérations IA, GitOps, CI/CD et automatisation tactique.",
   "type": "module",
 
-  "main": "src/index.js",
+  "main": "index.js",
   "exports": {
-    ".": "./src/index.js",
-    "./core": "./src/core/engine.js",
-    "./cli": "./src/cli/assistia.js",
-    "./utils": "./src/utils/index.js"
+    ".": "./index.js",
+    "./core": "./engine.js",
+    "./utils": "./utils.js"
   },
 
   "bin": {
-    "assistia": "src/cli/assistia.js"
+    "assistia": "./assistia.js"
   },
 
   "files": [
-    "src/",
+    "engine.js",
+    "assistia.js",
+    "index.js",
+    "assets/",
     "docs/",
     "scripts/",
-    "assets/",
     "LICENSE",
     "README.rst"
   ],
 
   "scripts": {
-    "start": "node src/index.js",
-    "assistia": "node src/cli/assistia.js",
-    "lint": "eslint src/",
+    "start": "node index.js",
+    "assistia": "node assistia.js",
+    "lint": "eslint .",
     "build": "echo 'AssistIA v5.2 — Quantum ERA build terminé'",
     "prepare": "npm run lint",
     "prepublishOnly": "npm run lint && npm run build"
