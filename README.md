@@ -1,6 +1,8 @@
-# 🧠⚔️ AssistIA
-- **v5.1**
->Tactical IA Framework
+# 🧠⚔️ AssistIA 
+### 🟦🟦 Framework
+- **v5.2**
+- Quantum ERA
+IA Framework
 
 <div align="left">
 
@@ -12,30 +14,30 @@
 
 </div>
 
-```text
-██████╗  ███████╗ ███████╗ ███████╗ ████████╗██╗██╗   ██╗ █████╗
-██╔══██╗ ██╔════╝ ██╔════╝ ██╔════╝ ╚══██╔══╝██║██║   ██║██╔══██╗
-██████╔╝ █████╗   ███████╗ ███████╗    ██║   ██║██║   ██║███████║
-██╔══██╗ ██╔══╝   ╚════██║ ╚════██║    ██║   ██║╚██╗ ██╔╝██╔══██║
-██║  ██║ ███████╗ ███████║ ███████║    ██║   ██║ ╚████╔╝ ██║  ██║
-╚═╝  ╚═╝ ╚══════╝ ╚══════╝ ╚══════╝    ╚═╝   ╚═╝  ╚═══╝  ╚═╝  ╚═╝
+###### ROOT Edition
+```js
+// ────────────────────────────────────────────────
+// AssistIA v5.2 — Tactical Utilities (ROOT Edition)
+// Doctrine : MIL-STD-IA-5.2
+// Signature : QUANTUM ERA READY
+// ────────────────────────────────────────────────
 ```
 
-# ✅ AssisIA
-- Tactical IA Framework
-   - État du projet v5.1
-```text
-- ✔️ Passage en v5.1  
-- ✔️ Core Engine amélioré (statut enrichi, uptime, OS, Node)  
-- ✔️ Architecture modulaire renforcée  
-- ✔️ Workflow GitHub Action v5.1  
-- ✔️ .npmrc militaire v5.1  
-- ✔️ Manifest.in intégré  
-- ✔️ Badges premium centrés à gauche  
-- ✔️ Style militaire avancé  
-- ✔️ Prêt pour la version BlackOps v5.2
+- Framework militaire modulaire pour opérations IA, GitOps, CI/CD et automatisation tactique.  
+- Version optimisée 100% racine, sans src/, pour déploiement rapide et architecture directe.
+
+### 🚀 Fonctionnalités principales
+```js
+- Moteur IA Quantum ERA (engine.js)
+- Interface CLI tactique (assistia.js)
+- Utilitaires militaires (utils.js)
+- Architecture racine optimisée
+- CI/CD GitHub Actions compatible
+- Doctrine : MIL-STD-IA-5.2
+- Signature : QUANTUM ERA READY
 ```
 
+### 📁 Structure ROOT Edition
 ### 🧩 Fonctionnalités principales
 ```markdown
 - ⚙️ Core Engine IA v5.1  
@@ -59,60 +61,53 @@
 ### 📄 manifest.in
 ```
 ```text
-include README.md
-include LICENSE
-recursive-include src *
-recursive-include docs *
-recursive-include scripts *
+assistia.js      → CLI Quantum ERA
+engine.js        → Moteur IA
+utils.js         → Utilitaires tactiques
+index.js         → Point d’entrée
+package.json     → Configuration Quantum ERA
+.npmrc           → Configuration NPM sécurisée
+assets/          → Visuels Quantum ERA
+docs/            → Documentation
+scripts/         → Scripts CI/CD
 ```
 
-### 📊 Graphique ASCII
-- Architecture AssistIA
-> ***VOIR docs/architecture.md***
-```ascii
-         ┌──────────────────────────────┐
-          │        AssistIA v5.1         │
-          └──────────────────────────────┘
-                     ▲        ▲
-                     │        │
-        ┌────────────┘        └────────────┐
-        │                                   │
-┌──────────────┐                    ┌──────────────┐
-│   Core Engine │                    │     CLI      │
-│     v5.1      │                    │    v5.2      │
-└──────────────┘                    └──────────────┘
-        ▲                                   ▲
-        │                                   │
-┌──────────────┐                    ┌──────────────┐
-│   Modules     │                    │   GitOps      │
-│    v5.2       │                    │    v5.2       │
-└──────────────┘                    └──────────────┘
-```
-
----
-
-### 🚀 Installation
+### 🔧 Installation
 ```bash
-npm install @teremu/assistia
+npm install
 ```
-### 🧠 Utilisation
-```js
-import AssistIA from "@teremu/assistia";
+### 🛡️ Exécution
+- Lancer le moteur
+```bash
+node index.js
+```
+- Utiliser la CLI
+```bash
+assistia init
+assistia status
+assistia ops
+assistia diag
+assistia sys
+assistia net
+```
 
-console.log(AssistIA.status());
-AssistIA.init();
-```
+### ⚙️ Configuration NPM (Quantum ERA)
+- Registry GitHub Packages
+- SSL strict
+- Cache optimisé
+- Audit désactivé
+- Mode ESM propre
 
-### 🏁 Roadmap vx.x
-```markdown
-- ✔️ — Core Engine amélioré  
-- ⬜ — CLI militaire complet  
-- ⬜ — Modules IA (ops, intel, security)  
-- ⬜ — BlackOps Edition (stealth mode)
-```
+> ***Voir .npmrc.***
 
->🧑‍✈️ Auteur
-```markdown
-- Teremu — The MadDoG.tmdg  
-- Architecte militaire du code
-```
+### 🧬 Doctrine Quantum ERA
+- Architecture militaire modulaire
+- Pipelines tactiques CI/CD
+- Sécurité renforcée
+- Compatibilité Node.js ≥ 20
+- Assets Quantum ERA (6‑fold visual system)
+
+### 📜 Licence
+>OAK-1.0
+### 🛠️ Auteur
+>Quantum ERA Framework
