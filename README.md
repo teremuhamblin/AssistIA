@@ -36,7 +36,7 @@
 - ✔️ Prêt pour la version BlackOps v5.2
 ```
 
-##$ 🧩 Fonctionnalités principales
+### 🧩 Fonctionnalités principales
 ```markdown
 - ⚙️ Core Engine IA v5.1  
 - 🛰️ CLI AssistIA (prévu v5.2)  
@@ -46,7 +46,8 @@
 - 🧠 Architecture modulaire IA / Ops / GitOps  
 ```
 
-### 🗂️ Structure du projet 
+### 🗂️ Structure du projet
+```text
 >***VOIR docs/structure.md***
 ### ⚙️ Core Engine
 > ***VOIR index.js***
@@ -56,6 +57,7 @@
 > ***Publish AssistIA***
 ***VOIR .github/workflows/***
 ### 📄 manifest.in
+```
 ```text
 include README.md
 include LICENSE
